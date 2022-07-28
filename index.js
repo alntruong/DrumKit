@@ -6,9 +6,9 @@ function handleClick() {
 var numberOfDrumButtons = document.querySelectorAll(".drum").length;
 
 for (var i = 0; i<numberOfDrumButtons; i++) {
-
+//this forLoop cycles through the entire list of buttons with the class drum
     document.querySelectorAll(".drum")[i].addEventListener("click", function () {
-
+    //each button is assigned an eventListener in the process
         console.log(this);
         
     });
